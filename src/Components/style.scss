@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header {
+  width: 100%;
+  .header-section {
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+    margin-bottom: 30px;
+    .nav {
+      flex-wrap: wrap;
+      max-width: 300px;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+    a {
+      text-decoration: none;
+      list-style: none;
+      color: black;
+      font-size: 20px;
+    }
+    a.active {
+      border-bottom: 1px solid black;
+    }
+  }
+}
+.contacts {
+  width: 100%;
+  .contacts-section {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.contacts-inputs {
+  .contacts-inputs-section {
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 15px;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    input {
+      padding: 5px;
+      font-size: 20px;
+      border-radius: 5px;
+      border: 1px solid black;
+      padding: 10px;
+    }
+    button {
+      border: none;
+      background-color: rgb(39, 128, 180);
+      font-size: 20px;
+      color: white;
+      cursor: pointer;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: white;
+      color: rgb(39, 128, 180);
+      border: 1px solid rgb(39, 128, 180);
+    }
+  }
+}
+.contact-item {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 10px;
+  align-items: center;
+  .item-right {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+  button {
+    background-color: rgb(180, 68, 68);
+    transition: 0.3s;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+  }
+  button:hover {
+    background-color: red;
+  }
+}
+.appointments-inputs {
+  .appointment-item {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+  }
+  .delete-button {
+    background-color: rgb(180, 68, 68);
+    transition: 0.3s;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    max-width: 100px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  button:hover {
+    background-color: red;
+  }
+  .app-left {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+  .app-right {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+  }
+  .appointments-inputs-section {
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 15px;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    input {
+      padding: 5px;
+      font-size: 20px;
+      border-radius: 5px;
+      border: 1px solid black;
+      padding: 10px;
+    }
+    button {
+      border: none;
+      background-color: rgb(39, 128, 180);
+      font-size: 20px;
+      color: white;
+      cursor: pointer;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: white;
+      color: rgb(39, 128, 180);
+      border: 1px solid rgb(39, 128, 180);
+    }
+  }
+}
+.appointments-section {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
